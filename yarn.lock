@@ -872,6 +872,11 @@
     "md5.js" "^1.3.4"
     "safe-buffer" "^5.1.1"
 
+"faker@^5.5.3":
+  "integrity" "sha512-wLTv2a28wjUyWkbnX7u/ABZBkUkIF2fCd73V6P2oFqEGEktDfzWx4UxrSqtPRw0xPRAcjeAOIiJWqZm3pP4u3g=="
+  "resolved" "https://registry.npmjs.org/faker/-/faker-5.5.3.tgz"
+  "version" "5.5.3"
+
 "fast-glob@^3.2.7":
   "integrity" "sha512-rYGMRwip6lUMvYD3BTScMwT1HtAs2d71SMv66Vrxs0IekGZEjhM0pcMfjQPnknBt2zeCwQMEupiN02ZP4DiT1Q=="
   "resolved" "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.7.tgz"
@@ -2256,7 +2261,19 @@
   dependencies:
     "has-flag" "^4.0.0"
 
-"tailwindcss@^2.2.4", "tailwindcss@>=2.0.0":
+"tailwind-scrollbar-hide@^1.1.5":
+  "integrity" "sha512-+an0OtSZQgvL5cE66A6WOaOHjjv8nGEJJfajnbzgKmo77UFOnspsViOdqp/ySu2Q3cjXk2BK4H7y0p2rmc0rVw=="
+  "resolved" "https://registry.npmjs.org/tailwind-scrollbar-hide/-/tailwind-scrollbar-hide-1.1.5.tgz"
+  "version" "1.1.5"
+
+"tailwind-scrollbar@^1.3.1":
+  "integrity" "sha512-FeYuLxLtCRMO4PmjPJCzm5wQouFro2BInZXKPxqg54DR/55NAHoS8uNYWMiRG5l6qsLkWBfVEM34gq2XAQUwVg=="
+  "resolved" "https://registry.npmjs.org/tailwind-scrollbar/-/tailwind-scrollbar-1.3.1.tgz"
+  "version" "1.3.1"
+  dependencies:
+    "tailwindcss" ">1.9.6"
+
+"tailwindcss@^2.2.4", "tailwindcss@>=2.0.0", "tailwindcss@>1.9.6":
   "integrity" "sha512-6Ui7JSVtXadtTUo2NtkBBacobzWiQYVjYW0ZnKaP9S1ZCKQ0w7KVNz+YSDI/j7O7KCMHbOkz94ZMQhbT9pOqjw=="
   "resolved" "https://registry.npmjs.org/tailwindcss/-/tailwindcss-2.2.19.tgz"
   "version" "2.2.19"

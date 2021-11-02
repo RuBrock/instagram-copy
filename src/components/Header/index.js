@@ -11,11 +11,11 @@ import { HomeIcon } from "@heroicons/react/solid";
 
 function Header() {
   return (
-    <div className="shadow-sm border-b bg-white sticky top-0 z-50">
+    <header className="shadow-sm border-b bg-white sticky top-0 z-50">
       <div className="flex justify-between max-w-6xl mx-5 xl:mx-auto">
         {/* Left */}
-        <Logo type="desktop" imageURL="https://links.papareact.com/ocw" />
-        <Logo type="mobile" imageURL="https://links.papareact.com/jjm" />
+        <Logo type="desktop" imgURL="https://links.papareact.com/ocw" />
+        <Logo type="mobile" imgURL="https://links.papareact.com/jjm" />
 
         {/* Middle - Search input field */}
         <div className="max-w-xs">
@@ -54,7 +54,7 @@ function Header() {
           />
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 
